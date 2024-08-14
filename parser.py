@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # MongoDB connection details
 MONGO_URL = os.getenv("MONGO_URL")
-DB_NAME = os.getenv("DB_NAME", "stock_data")
+DB_NAME = os.getenv("DB_NAME", "test")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME", "tesla_stock")
 
 # Global flag for graceful shutdown
